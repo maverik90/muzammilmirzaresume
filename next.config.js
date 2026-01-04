@@ -4,8 +4,7 @@ const nextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true
-  },
-  assetPrefix: '/muzammirmirzaresume'
+  }
 }
 
 module.exports = nextConfig
