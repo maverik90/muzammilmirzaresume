@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Muzammil Mirza - Lead Frontend Engineer",
+  title: "Muzammil Mirza - Lead Frontend Engineer | Portfolio",
   description: "Personal portfolio of Muzammil Mirza, a Lead Frontend Engineer specializing in React, Vue.js, CRO, and Web Performance Optimization.",
 };
 
