@@ -4,7 +4,9 @@ const nextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true
-  }
+  },
+  basePath: '/muzammirmirzaresume',
+  assetPrefix: '/muzammirmirzaresume'
 }
 
 module.exports = nextConfig
