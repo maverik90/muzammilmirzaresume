@@ -14,30 +14,13 @@ export default function Home() {
 
     const formData = new FormData(e.currentTarget);
     const name = formData.get('name') as string;
-    const email = formData.get('email') as string;
-    const message = formData.get('message') as string;
 
-    try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ name, email, message }),
-      });
-
-      if (response.ok) {
-        alert('Message sent successfully!');
-        e.currentTarget.reset();
-      } else {
-        const error = await response.json();
-        alert(`Failed to send message: ${error.error}`);
-      }
-    } catch {
-      alert('Failed to send message. Please try again.');
-    } finally {
+    // For static deployment, show success message with email instructions
+    setTimeout(() => {
+      alert(`Thank you for your message, ${name}!\n\nSince this is a static deployment, please email me directly at:\nmaverik_90@hotmail.com\n\nI'll get back to you as soon as possible!`);
+      e.currentTarget.reset();
       setIsSubmitting(false);
-    }
+    }, 1000);
   };
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden">
