@@ -351,6 +351,7 @@ export default function Home() {
                 <p>🎭 Dynamic scene reveals on scroll</p>
                 <p>🌱 Vegan storytelling experience</p>
                 <p>🎨 &quot;Demokratie Fan&quot; portfolio project</p>
+                <p>🌐 Live: <a href="https://demokratie-fan.de/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">demokratie-fan.de</a></p>
               </div>
             </motion.div>
             <motion.div
