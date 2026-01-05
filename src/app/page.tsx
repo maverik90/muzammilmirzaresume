@@ -381,6 +381,62 @@ export default function Home() {
         </div>
       </motion.section>
 
+      {/* Publications Section */}
+      <motion.section 
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+        id="publications" 
+        className="py-20 px-6 bg-black"
+      >
+        <div className="max-w-6xl mx-auto">
+          <motion.h2 
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="text-3xl md:text-4xl font-bold text-center mb-12"
+          >
+            <span className="bg-gradient-to-r from-green-400 to-blue-600 bg-clip-text text-transparent">Publications & Features</span>
+          </motion.h2>
+          <div className="max-w-4xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+              whileHover={{ scale: 1.02, y: -5 }}
+              className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-lg p-8 hover:border-green-500/50 transition-all duration-300"
+            >
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0">
+                  <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-blue-500 rounded-full flex items-center justify-center">
+                    <span className="text-white font-bold text-lg">P</span>
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-semibold text-white mb-2">
+                    Transforming Web User Experiences: How Developer Muzammil Mirza Is Pushing the Frontend Frontier
+                  </h3>
+                  <p className="text-gray-400 mb-4">
+                    Featured article highlighting my contributions to frontend development, CRO expertise, and innovative web solutions that enhance user experiences and drive business growth.
+                  </p>
+                  <div className="flex items-center text-sm text-gray-500 mb-4">
+                    <span className="font-medium text-green-400">Propakistani.pk</span>
+                    <span className="mx-2">•</span>
+                    <span>December 21, 2021</span>
+                  </div>
+                  <div className="text-sm text-gray-500">
+                    <p>🌐 propakistani.pk/2021/12/21/transforming-web-user-experiences-how-developer-muzammil-mirza-is-pushing-the-frontend-frontier/</p>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </motion.section>
+
       {/* Skills Section */}
       <motion.section 
         initial={{ opacity: 0, y: 50 }}
