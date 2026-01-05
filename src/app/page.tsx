@@ -428,7 +428,7 @@ export default function Home() {
                     <span>December 21, 2021</span>
                   </div>
                   <div className="text-sm text-gray-500">
-                    <p>🌐 propakistani.pk/2021/12/21/transforming-web-user-experiences-how-developer-muzammil-mirza-is-pushing-the-frontend-frontier/</p>
+                    <p>🌐 <a href="https://propakistani.pk/2021/12/21/transforming-web-user-experiences-how-developer-muzammil-mirza-is-pushing-the-frontend-frontier/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">propakistani.pk/2021/12/21/transforming-web-user-experiences-how-developer-muzammil-mirza-is-pushing-the-frontend-frontier/</a></p>
                   </div>
                 </div>
               </div>
