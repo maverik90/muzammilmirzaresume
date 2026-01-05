@@ -147,7 +147,7 @@ export default function Home() {
             className="flex justify-center space-x-6"
           >
             <motion.a 
-              href="https://github.com/muzammilmirza" 
+              href="https://github.com/maverik90" 
               className="text-gray-400 hover:text-white transition-colors p-3 rounded-full hover:bg-gray-800"
               whileHover={{ scale: 1.1, rotate: 5 }}
               whileTap={{ scale: 0.9 }}
@@ -667,7 +667,7 @@ export default function Home() {
             className="mt-12 flex justify-center space-x-6"
           >
             <motion.a 
-              href="https://github.com/muzammilmirza" 
+              href="https://github.com/maverik90" 
               className="text-gray-400 hover:text-white transition-colors p-3 rounded-full hover:bg-gray-800"
               whileHover={{ scale: 1.1, rotate: 5 }}
               whileTap={{ scale: 0.9 }}
