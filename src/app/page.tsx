@@ -330,7 +330,7 @@ export default function Home() {
                 <p>🏆 First AI project at Spiralyze</p>
                 <p>📈 Boosted website engagement significantly</p>
                 <p>💡 Planned for subscription service expansion</p>
-                <p>🌐 Live: dialecticalbehaviortherapy.com/mindfulness/observing/virtual-coach</p>
+                <p>🌐 Live: dialecticalbehaviortherapy.com</p>
               </div>
             </motion.div>
             <motion.div
